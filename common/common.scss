@@ -29,13 +29,12 @@
   .welcome-wrapper {
     border-radius: 2em;
     position: relative;
-    width: 95%;
+    width: 100%;
     flex: 0 1 auto;
     box-sizing: border-box;
     display: flex;
     justify-content: center;
     box-shadow: var(--shadow-card);
-    margin: 2.5em auto;
     background: #{$banner-box-background-color};
 
     @if $layout == "text-top" {
